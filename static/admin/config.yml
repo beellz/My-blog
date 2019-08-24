@@ -9,7 +9,7 @@ public_folder: "uploads"
 collections:
   - name: "PROJECTS"
     label: "projects"
-    folder: "content/projects"
+    folder: "/content/projects"
     field: language
     value: en
     create: true
@@ -30,7 +30,7 @@ collections:
       
   - name: "MY LIFE"
     label: "My-life"
-    folder: "content/my-life"
+    folder: "/content/my-life"
     field: language
     value: en
     create: true
