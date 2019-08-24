@@ -7,7 +7,7 @@ media_folder: "static/uploads"
 public_folder: "uploads"
 
 collections:
-  - name: "projects"
+  - name: "Projects"
     label: "projects"
     folder: "content/projects"
     field: language
@@ -28,8 +28,8 @@ collections:
       - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
       
-  - name: "my-life"
-    label: "my-life"
+  - name: "My life"
+    label: "My-life"
     folder: "content/my-life"
     field: language
     value: en
